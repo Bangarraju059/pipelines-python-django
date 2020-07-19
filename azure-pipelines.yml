@@ -42,5 +42,5 @@ steps:
 - task: PublishTestResults@2
   condition: succeededOrFailed()
   inputs:
-    testResultsFiles: "**/TEST-*.xml"
+    testResultsFiles: "**/TEST-*.xm"
     testRunTitle: 'Python $(PYTHON_VERSION)'
